@@ -64,14 +64,14 @@ end
 
 You can read more about the `Observer Design Pattern` [Observer Design Patterns][observer_design_patterns].
 
-#### Note
+### Note
 
-*1.* Observer names are inferred form the model names. So if you name your observer as `ApplicationObserver`, rails knows that it's observing the `Application` model.
-
-*2.* Your observers need not be model specific. SRP states that "Responsibility should be entirely encapsulated by the context". So by this definition you can have a single observer which listens to changes in multiple models and perfom a single function say, sending an email or publishing a notification. To acomplish this you can use the `ActiveRecord::Observer.observe` method.
-
-*3.* Place your observers in `app/models` or `app/models/observers`.
-
-*4.* Finally, Observers have been __removed__ form the rails core after `Rails 3.2`. You need to include the `rails-observers` gem to use observers in later rails versions.
+>**1.** Observer names are inferred form the model names. So if you name your observer as `ApplicationObserver`, rails knows that it's observing the `Application` model.
+>
+>**2.** Your observers need not be model specific. SRP states that "Responsibility should be entirely encapsulated by the context". So by this definition you can have a single observer which listens to changes in multiple models and perfom a single function say, sending an email or publishing a notification. To acomplish this you can use the `ActiveRecord::Observer.observe` method.
+>
+>**3.** Place your observers in `app/models` or `app/models/observers`.
+>
+>**4.** Finally, Observers have been __removed__ form the rails core after `Rails 3.2`. You need to include the `rails-observers` gem to use observers in later rails versions.
 
 [observer_design_patterns]:  http://sourcemaking.com/design_patterns/observer
