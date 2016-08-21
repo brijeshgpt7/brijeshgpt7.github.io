@@ -1,0 +1,42 @@
+# Site settings
+description: Worked extensively with Ruby, Rails, NodeJS, EmberJS and Postgresql.
+baseurl: ''
+url: "http://brijeshgpt7.github.io"
+
+# User settings
+username: Brijesh Gupta
+user_description: Full Stack developer in Ruby on Rails.
+user_title: Mostly Code
+email: brijeshgpt7@gmail.com
+twitter_username: brijeshgpt7
+facebook_username: brijeshgpt7
+gplus_username:  brijeshgpt7
+disqus_username: brijeshgpt7
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
