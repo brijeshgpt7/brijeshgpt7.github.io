@@ -73,10 +73,13 @@ p proc_obj_by_lambda.('Foo')
 p proc_obj_by_lambda['Foo']
 # p proc_obj_by_lambda.call('Foo', 'Bar')
 {% endhighlight %}
-Essentially, Procs are anonymous methods (or nameless functions) containing code. 
-They can be placed inside a variable (we can invoke them based on requirment )and 
+
+Essentially, `Procs` are anonymous methods (or nameless functions) containing code. 
+They can be placed inside a variable (we can invoke them based on requirement) and 
 passed around like any other object.
-They are created by Proc.new, lambda, and blocks (invoked by the yield keyword).
+
+These anonymous method could be create by `Proc.new`, `lambda`, and `blocks` (invoked by the yield keyword).
+
 {% highlight ruby %}
 # wants a proc, a lambda, AND a block
 def three_ways(proc, lambda, &block)

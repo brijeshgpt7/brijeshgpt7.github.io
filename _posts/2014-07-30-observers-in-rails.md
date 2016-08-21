@@ -62,7 +62,10 @@ class UserObserver < ActiveRecord::Observer
 end
 {% endhighlight %}
 
-You can read more about the `Observer Design Pattern` [Observer Design Patterns][observer_design_patterns].
+You can read more about the [Observer Design Patterns](observer_design_patterns).
+![](/assets/img/reading.gif)
+
+----
 
 ### Note
 
@@ -72,6 +75,6 @@ You can read more about the `Observer Design Pattern` [Observer Design Patterns]
 >
 >**3.** Place your observers in `app/models` or `app/models/observers`.
 >
->**4.** Finally, Observers have been __removed__ form the rails core after `Rails 3.2`. You need to include the `rails-observers` gem to use observers in later rails versions.
+>**4.** Finally, Observers have been __Removed__ form the rails core after `Rails 3.2`. You need to include the `rails-observers gem` to use `observers` in later `rails` versions.
 
 [observer_design_patterns]:  http://sourcemaking.com/design_patterns/observer
