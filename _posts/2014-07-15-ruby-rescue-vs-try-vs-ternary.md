@@ -49,3 +49,5 @@ ternary  | 0.2800000   | 0.000000  | 0.2800000 | ( 0.277966)
 {% endhighlight %}
 
 Note that __rescue__ is considerably inefficient compared to the other two (almost 60 times). __The Ternary operator__ seems to be the most sound option.
+
+![](/assets/img/tiger.gif)
