@@ -124,7 +124,12 @@ return_from_lambda
 
 
 #### Second difference between proc and lambda
-
+The -> operator creates a new Proc, which is one of Ruby’s function types. (The -> is often called the “stabby proc”. It’s also called the “stabby lambda”, as it creates a new Proc instance that is a lambda.
+#### All lambdas are Procs, but not all Procs are lambdas. There are some slight differences between the two.)
+You can call a Proc by using either the call method on Proc, or by using the square bracket syntax
+{% highlight ruby %}
+-> (a) {p a}["Hello world"]
+{% endhighlight %}
 {% highlight ruby %}
 prok = proc { |a,b| "Hello #{a}===and==#{b}"}
 prok.call
