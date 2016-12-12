@@ -37,9 +37,9 @@ end
 p proc_obj_by_proc_class
 p proc_obj_by_proc_class.call
 p proc_obj_by_proc_class.call('Foo')
+p proc_obj_by_proc_class.call('Foo', 'Bar')
 p proc_obj_by_proc_class.('Foo')
 p proc_obj_by_proc_class['Foo']
-p proc_obj_by_proc_class.call('Foo', 'Bar')
 {% endhighlight %}
 
 {% highlight ruby %}
