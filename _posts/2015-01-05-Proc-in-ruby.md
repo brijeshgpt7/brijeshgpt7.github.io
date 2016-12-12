@@ -113,7 +113,7 @@ end
 
 
 def return_from_lambda
-  lamda = proc { p 'I am in lambda block'}
+  lamda = lambda { p 'I am in lambda block'}
   lamda.call()
   return 'I am lambda return value'
 end
