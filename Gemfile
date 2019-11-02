@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 gem 'safe_yaml'
-gem 'jekyll', '~> 3.2', '>= 3.2.1'
+gem 'jekyll', '~> 3.6'
